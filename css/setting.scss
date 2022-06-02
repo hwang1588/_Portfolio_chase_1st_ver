@@ -1,0 +1,682 @@
+////////////////////////////////////////////////
+//폰트(스타일, 사이즈, 두께) 정의↓
+////////////////////////////////////////////////
+$black: #000000;
+$lightblack: #232323;
+$white: #ffffff;
+$gray: #999999;
+$darkpurple: #3057C2;
+$testpurple: $darkpurple;
+$chasepurple: #3355DC;
+$lightpurple: #3E69DF;
+$img: "/img/";
+////////////////////////////////////////////////
+//공통영역 정의↓
+////////////////////////////////////////////////
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font: {
+    family: 'Noto Sans', sans-serif;
+    weight: 300;
+  }
+
+  color: $lightblack;
+}
+
+a:hover {
+  color: red;
+}
+
+p {
+  margin: 0
+}
+
+.nav-link {
+  color: $lightblack;
+
+  :hover {
+    color: $white;
+  }
+}
+
+.gif-shadow {
+  border: 1px solid #E9FAFF;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 0px rgba(193, 218, 226, 0.3);
+  padding: 2.5rem;
+}
+
+.roadmap-button {
+  margin-left: 19vw;
+  margin-right: 18vw;
+}
+
+////////////////////////////////////////////////
+//폰트(스타일, 사이즈, 두께) 정의↓
+////////////////////////////////////////////////
+.ff {
+  &-2P {
+    font: {
+      family: 'Press Start 2P', cursive !important
+    }
+  }
+
+  &-marker {
+    font: {
+      family: 'Permanent Marker', cursive;
+    }
+  }
+}
+
+.fs {
+  &-12px {
+    font: {
+      size: 12px;
+    }
+  }
+
+  &-14px {
+    font: {
+      size: 14px;
+    }
+  }
+
+  &-16px {
+    font: {
+      size: 16px;
+    }
+  }
+
+  &-18px {
+    font: {
+      size: 18px;
+    }
+  }
+
+  &-20px {
+    font: {
+      size: 24px;
+    }
+  }
+
+  &-32px {
+    font: {
+      size: 32px;
+    }
+  }
+
+  &-64px {
+    font: {
+      size: 64px;
+    }
+  }
+
+  &-3_4vw {
+    font: {
+      size: 3.4vw;
+    }
+  }
+}
+
+.fw {
+  &-100 {
+    font: {
+      weight: 100 !important;
+    }
+  }
+
+  &-200 {
+    font: {
+      weight: 200 !important;
+    }
+  }
+
+  &-300 {
+    font: {
+      weight: 300 !important;
+    }
+  }
+
+  &-400 {
+    font: {
+      weight: 400 !important;
+    }
+  }
+
+  &-500 {
+    font: {
+      weight: 500 !important;
+    }
+  }
+
+  &-600 {
+    font: {
+      weight: 600 !important;
+    }
+  }
+
+  &-light {
+    font: {
+      weight: lighter !important;
+    }
+  }
+}
+
+////////////////////////////////////////////////
+//폰트컬러 정의↓
+////////////////////////////////////////////////
+.text {
+  &-3355DC {
+    color: $chasepurple;
+  }
+
+  &-3E69DF {
+    color: $lightpurple;
+  }
+
+  &-232323 {
+    color: $lightblack;
+  }
+}
+
+////////////////////////////////////////////////
+//마진y값 정의↓
+////////////////////////////////////////////////
+.my {
+  &-30px {
+    margin: 30px 0;
+  }
+
+  &-180px {
+    margin: 180px 0;
+  }
+
+  &-232323 {
+    color: $lightblack;
+  }
+}
+
+////////////////////////////////////////////////
+//마진top값 정의↓
+////////////////////////////////////////////////
+.mt {
+  &--35px {
+    margin-top: -35px;
+  }
+
+  &-30px {
+    margin-top: 30px;
+  }
+
+  &-32px {
+    margin-top: 32px;
+  }
+
+  &-60px {
+    margin-top: 60px;
+  }
+
+  &-140px {
+    margin-top: 140px;
+  }
+
+  &-180px {
+    margin-top: 180px;
+  }
+
+  &-310px {
+    margin-top: 180px;
+  }
+}
+
+////////////////////////////////////////////////
+//마진bottom값 정의↓
+////////////////////////////////////////////////
+.mb {
+  &-30px {
+    margin-bottom: 30px;
+  }
+
+  &-32px {
+    margin-bottom: 32px;
+  }
+
+  &-60px {
+    margin-bottom: 60px;
+  }
+
+  &-140px {
+    margin-bottom: 140px;
+  }
+
+  &-180px {
+    margin-bottom: 180px;
+  }
+}
+
+////////////////////////////////////////////////
+//마진left값 정의↓
+////////////////////////////////////////////////
+.ms {
+  &-30px {
+    margin-left: 30px;
+  }
+}
+
+////////////////////////////////////////////////
+//패딩 all값 정의↓
+////////////////////////////////////////////////
+.p {
+  &-30px {
+    padding: 30px;
+  }
+}
+
+////////////////////////////////////////////////
+//패딩y값 정의↓
+////////////////////////////////////////////////
+.py {
+  &-30px {
+    padding: 30px 0;
+  }
+}
+
+////////////////////////////////////////////////
+//패딩top값 정의↓
+////////////////////////////////////////////////
+.pt {
+  &-30px {
+    padding-top: 30px;
+  }
+}
+
+////////////////////////////////////////////////
+//패딩bottom값 정의↓
+////////////////////////////////////////////////
+.pb {
+  &-180px {
+    padding-bottom: 180px;
+  }
+}
+
+////////////////////////////////////////////////
+//패딩left값 정의↓
+////////////////////////////////////////////////
+.ps {
+  &-30px {
+    padding-left: 30px;
+  }
+}
+
+////////////////////////////////////////////////
+//height값 정의↓
+////////////////////////////////////////////////
+.h {
+  &-157px {
+    height: 157px;
+  }
+
+  &-530px {
+    height: 530px;
+  }
+}
+
+////////////////////////////////////////////////
+//width값 정의↓
+////////////////////////////////////////////////
+.w {
+  &-1110px {
+    width: 1110px;
+  }
+}
+
+////////////////////////////////////////////////
+//border관련 정의↓
+////////////////////////////////////////////////
+.radius {
+  &-30px {
+    border-radius: 30px;
+  }
+}
+
+.border {
+  &-707070 {
+    border-color: #707070 !important;
+  }
+}
+
+////////////////////////////////////////////////
+//background관련 정의↓
+////////////////////////////////////////////////
+.bg {
+  &-pic {
+    background: no-repeat url($img + "mask.svg");
+  }
+
+  &-E3E3E5 {
+    background-color: #E3E3E5;
+  }
+
+  &-C7C5CA {
+    background-color: #C7C5CA;
+  }
+}
+
+////////////////////////////////////////////////
+//애니메이션 키프레임 관련 정의↓
+////////////////////////////////////////////////
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  -webkit-animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: fade-in 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+////////////////////////////////////////////////
+//arrow버튼 정의↓
+////////////////////////////////////////////////
+.arrow-button {
+  font: {
+    size: 24px;
+    family: Helvetica, Arial, sans-serif;
+  }
+
+  color: #ffffff;
+  filter: drop-shadow(3px 3px 3px rgba(50, 50, 50, 0.35));
+  -webkit-filter: drop-shadow(3px 3px 3px rgba(50, 50, 50, 0.35));
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+
+  @mixin float_transition {
+    transition: all 0.2s;
+    float: left;
+  }
+
+  & .label {
+    @include float_transition;
+    line-height: 50px;
+    padding: 0 1.4em;
+    background-color: $lightpurple;
+    border-radius: 40px;
+  }
+
+  & .arrow {
+    @include float_transition;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 20px solid $lightpurple;
+  }
+
+  &:hover {
+    & .label {
+      background-color: $darkpurple;
+    }
+
+    & .arrow {
+      border-left: 20px solid $darkpurple;
+    }
+  }
+}
+
+////////////////////////////////////////////////
+//1201px이상 미디어 쿼리 정의
+////////////////////////////////////////////////
+@media screen and (min-width: 1201px) {
+  .main-title {
+    font-size: 64px;
+    margin-top: 310px;
+  }
+
+  @mixin title_module {
+    font-size: 32px;
+    margin: 180px 0 60px 0;
+  }
+
+  .title {
+    font-size: 64px;
+    margin-top: 310px;
+
+    &-1 {
+      font-size: 32px;
+      margin-top: 180px;
+    }
+
+    &-2 {
+      font-size: 32px;
+
+      &-img {
+        margin-top: 60px;
+        margin-bottom: 180px;
+      }
+    }
+
+    &-3 {
+      @include title_module;
+    }
+
+    &-4 {
+      @include title_module;
+    }
+  }
+
+  .bg {
+    &-main {
+      background: no-repeat url($img + "bg.svg") 50% 50%;
+      height: 1133px;
+    }
+
+    &-2 {
+      background: no-repeat url($img + "bg2.svg");
+      height: 997px;
+    }
+
+    &-3 {
+      background: no-repeat bottom url($img + "bg3.svg")
+    }
+
+    &-4 {
+      background: no-repeat url($img + "bg4.svg");
+      height: 1304px;
+    }
+  }
+}
+
+////////////////////////////////////////////////
+//1200px미만 미디어 쿼리 정의
+////////////////////////////////////////////////
+@media screen and (max-width: 1200px) {
+  .text-center-1200px {
+    text-align: center !important;
+  }
+
+  .w-1110px {
+    padding: 0 120px;
+  }
+
+  .items-center-1200px {
+    justify-content: center;
+  }
+
+  .main-title {
+    font-size: 6.4vw;
+    margin-top: 180px;
+  }
+
+  .title {
+    &-1 {
+      font-size: 24px;
+      margin-top: 180px;
+    }
+
+    &-2 {
+      font-size: 24px;
+
+      &-img {
+        margin-top: 60px;
+        margin-bottom: 180px;
+      }
+    }
+
+    &-3 {
+      font-size: 24px;
+      margin: 180px 0 60px 0
+    }
+
+    &-4 {
+      font-size: 24px;
+      margin: 180px 0 60px 0
+    }
+  }
+
+  .bg {
+    &-main {
+      background: no-repeat url($img + "bg-1200.svg") 50% 50%;
+      height: 833px;
+    }
+
+    &-2 {
+      background: no-repeat url($img + "bg2-1200.svg");
+      height: 1558px;
+    }
+
+    &-3 {
+      background: no-repeat bottom url($img + "bg3.svg");
+    }
+
+    &-4 {
+      background: no-repeat url($img + "bg4-1200.svg");
+      height: 1304px;
+    }
+  }
+}
+
+////////////////////////////////////////////////
+//576px미만 미디어 쿼리 정의
+////////////////////////////////////////////////
+@media screen and (max-width: 576px) {
+  .w-1110px {
+    padding: 0 50px;
+  }
+
+  .items-center-1200px {
+    justify-content: center;
+  }
+
+  .arrow-button {
+    font-size: 20px
+  }
+
+  .roadmap-button {
+    margin: 0
+  }
+
+  .nav-link {
+    background-color: #ffffff !important;
+    border-radius: 16px !important;
+    color: #232323;
+    font-size: 14px;
+    padding: 10px 30px;
+
+    &.active {
+      background-color: #4A76E2 !important;
+    }
+  }
+
+  .mt-40px-576px {
+    margin-top: 40px;
+  }
+
+  .pb-60px-576px {
+    padding-bottom: 60px;
+  }
+
+  .d-none-576px {
+    display: none;
+  }
+
+  .fs-14px-576px {
+    font-size: 14px;
+  }
+
+  .asdf {
+    visibility: hidden
+  }
+
+  .title {
+
+    @at-root {
+      .main-title {
+        font-size: 24px;
+        margin-top: 90px;
+      }
+    }
+
+    &-1 {
+      font-size: 16px;
+      margin-top: 60px;
+    }
+
+    &-2 {
+      font-size: 16px;
+      margin: 60px 0 30px 0;
+
+      &-img {
+        margin-top: 30px;
+        margin-bottom: 60px;
+      }
+    }
+
+    &-3 {
+      font-size: 24px;
+      margin: 180px 0 60px 0
+    }
+
+    &-4 {
+      font-size: 24px;
+      margin: 180px 0 60px 0
+    }
+  }
+
+  .bg {
+    &-main {
+      background: no-repeat url($img + "bg-576.svg") 50% 50%;
+    }
+
+    &-2 {
+      background: no-repeat url($img + "bg2-576.svg");
+      height: 771px;
+    }
+
+    &-3 {
+      background: no-repeat bottom url($img + "bg3.svg");
+    }
+
+    &-4 {
+      background: no-repeat url($img + "bg4-576.svg");
+      color: $testpurple;
+    }
+  }
+}

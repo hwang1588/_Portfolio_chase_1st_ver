@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <!--  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">-->
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
+  <meta name="HandheldFriendly" content="true">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="theme-color" content="#000008">
+  <meta name="naver-site-verification" content="" />
+  <meta name="google-site-verification" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta property="og:title" content="Myce.io">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://myce.io">
+  <meta property="og:image" content="img/img_og.jpg">
+  <meta name="description" content="Myce.io">
+  <meta name="og:description" content="Myce.io">
+  <meta name="keyword" content="Myce.io">
+  <meta name="og:keyword" content="Myce.io">
+  <title>MYCE</title>
+
+  <script>
+    function isMobile() {
+      var UserAgent = navigator.userAgent;
+      if (UserAgent.match(/iPhone|iPod|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    if (isMobile()) {
+      location.href = "/index_m.html"; //모바일페이지
+    } else {}
+  </script>
+  <!--css:S-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link rel="stylesheet" href="css/locomotivesite.css">
+  <!--css:E-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container-fluid" data-scroll-container>
+
+    <div class="row" style="margin-bottom: 500px;" data-scroll-section>
+<!--https://klaytn.foundation 구름 영역 모티브-->
+      <!--data-scroll-section안에 data-scroll 있어야함-->
+      <div class="col-4" style="margin-top: 500px;">
+        <!-- 두곳에 margin값이 같아도 스크롤 스피드가 -음수 일수록 위에있고 스크롤시 더 늦게 화면을 빠져나감-->
+        <center>
+        <img style="position:absolute"data-scroll data-scroll-speed="-7" src="https://images.unsplash.com/photo-1592529754743-91e25c7b9b47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt="">
+        </center>
+      </div>
+      <div class="col-4" style="margin-top: 600px;">
+        <center>
+        <img style="position:absolute"data-scroll data-scroll-speed="-5" src="https://images.unsplash.com/photo-1592529754743-91e25c7b9b47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt="">
+        </center>
+      </div>
+      <div class="col-4" style="margin-top: 700px;">
+       <center>
+        <img data-scroll data-scroll-speed="-2" src="https://images.unsplash.com/photo-1584999675865-41e544a9d067?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80" alt="">
+        </center>
+      </div>
+    </div>
+
+    <div class="row align-items-center" data-scroll-section>
+      <div class="col-6 text-white">asdfasdf</div>
+      <div class="col-6">
+        <div class="c-fixed_wrapper" data-scroll data-scroll-repeat>
+          <div class="c-fixed_target" id="fixed-target"></div>
+          <div class="c-fixed" data-scroll data-scroll-sticky data-scroll-target="#fixed-target" style="background-image:url('img/bg_3.jpg')"></div>
+        </div>
+      </div>
+      
+      <div class="container-fluid area px-0">
+      <div class="row move-rect">
+        <div class="col-2">
+          <img src="img/check_circle_orange.svg" class="orange_circle mx-auto d-block w-100 cursor-pointer">
+        </div>
+        <div class="col-2">
+          <img src="img/check_circle_orange.svg" class="orange_circle mx-auto d-block w-100 cursor-pointer">
+        </div>
+        <div class="col-2">
+          <img src="img/check_circle_orange.svg" class="orange_circle mx-auto d-block w-100 cursor-pointer">
+        </div>
+        <div class="col-2">
+          <img src="img/check_circle_orange.svg" class="orange_circle mx-auto d-block w-100 cursor-pointer">
+        </div>
+        <div class="col-2">
+          <img src="img/check_circle_orange.svg" class="orange_circle mx-auto d-block w-100 cursor-pointer">
+        </div>
+        <div class="col-2">
+          <img src="img/check_circle_orange.svg" class="orange_circle mx-auto d-block w-100 cursor-pointer">
+        </div>
+      </div>
+      </div>
+      
+    </div>
+
+    <div class="row" data-scroll-section>
+      <h1 class="mt-5" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-3" data-scroll-class="appear" data-scroll-repeat="true">Special Offers</h1>
+      <div class="" data-scroll data-scroll-speed="1.5">
+        <img src="img/hanaon.png" alt="">
+      </div>
+    </div>
+
+
+<div id="js-scroll">
+<section class="c-section" data-scroll-section>
+      <div class="o-container" id="scroll-direction">
+        <div class="c-direction-block_wrapper">
+          <div class="c-direction-block" id="direction">
+            <div class="c-direction-block_item -one">
+              <span class="c-direction-block_item_inner" data-scroll data-scroll-direction="horizontal" data-scroll-speed="6" data-scroll-target="#direction">
+                I'm moving in this direction
+              </span>
+            </div>
+            <div class="c-direction-block_item -two">
+              <span class="c-direction-block_item_inner" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-8" data-scroll-target="#direction">
+                And in this direction
+              </span>
+            </div>
+            <div class="c-direction-block_item -three">
+              <span class="c-direction-block_item_inner" data-scroll data-scroll-direction="horizontal" data-scroll-speed="9" data-scroll-target="#direction" data-scroll-delay="0.05">
+                Sooo customizable. Right?
+              </span>
+            </div>
+            <div class="c-direction-block_item -four">
+              <span class="c-direction-block_item_inner" data-scroll data-scroll-direction="horizontal" data-scroll-speed="15" data-scroll-target="#direction">
+                I can also go in this direction
+              </span>
+            </div>
+            <div class="c-direction-block_item -five">
+              <span class="c-direction-block_item_inner" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-20" data-scroll-target="#direction" data-scroll-delay="0.05">
+                <img src="img/aws.png">
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+       </div>
+       
+        <img src="img/bg_3.jpg" alt="">
+
+  </div>
+  
+  
+  
+  
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js">
+  </script>
+  
+  <script>
+    const scroller = new LocomotiveScroll({
+      el: document.querySelector('[data-scroll-container]'),
+      smooth: true
+    });
+  </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/template.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  
+  <script>
+  $(document).ready(function(){
+  var $moveable = $('.move-rect');
+  var rectPosX = parseInt($('.move-rect').css('left'), 10);
+  $(".area").mousemove(function(e){
+      $moveable.css({'left': rectPosX-e.pageX/4});
+  });
+    
+     $(".orange_circle").mouseenter(function () { //"orange_circle"요소에 '마우스가진입'하면
+    $(this).removeClass("movedown"); //"orange_circle"(this)요소에 "test_active"요소와 "not"요소가 '번갈아 적용'됨
+    $(this).addClass("moveup"); //"orange_circle"(this)요소에 "test_active"요소와 "not"요소가 '번갈아 적용'됨
+  });
+    $(".orange_circle").mouseleave(function () { //"orange_circle"요소에 '마우스가진입'하면
+    $(this).removeClass("moveup"); //"orange_circle"(this)요소에 "test_active"요소와 "not"요소가 '번갈아 적용'됨
+    $(this).addClass("movedown"); //"orange_circle"(this)요소에 "test_active"요소와 "not"요소가 '번갈아 적용'됨
+  });
+    
+});
+  </script>
+
+
+</body>
+
+</html>
