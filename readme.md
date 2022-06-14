@@ -11,6 +11,7 @@
 -   [Aos2.3.1](https://michalsnik.github.io/aos/)
 -   [wowjs3.0](https://wowjs.uk/)
 -   [Slick1.8.1](https://kenwheeler.github.io/slick/)
+-   [Scss](https://sass-lang.com/)
 
 
 
