@@ -17,7 +17,7 @@
 ## Preview
 
 ### - PC
-<img src="https://github.com/hwang1588/repo_img_src/blob/main/_korfin_chase_1st_ver/pc1.png">
+<img src="https://github.com/hwang1588/repo_img_src/blob/main/_korfin_Chase_1st_ver/pc1.png">
 
 ### - MOBILE
-<img src="https://github.com/hwang1588/repo_img_src/blob/main/_korfin_chase_1st_ver/mobile1.png">
+<img src="https://github.com/hwang1588/repo_img_src/blob/main/_korfin_Chase_1st_ver/mobile1.png">
